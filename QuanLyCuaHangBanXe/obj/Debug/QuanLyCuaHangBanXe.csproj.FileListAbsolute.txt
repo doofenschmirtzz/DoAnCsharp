@@ -1,0 +1,228 @@
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\QuanLyCuaHangBanXe.exe.config
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\QuanLyCuaHangBanXe.exe
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\QuanLyCuaHangBanXe.pdb
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DataContext.dll
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DataProvider.dll
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DataContext.pdb
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DataProvider.pdb
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.csprojResolveAssemblyReference.cache
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.Main.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.Properties.Resources.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpChiNhanh.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpHoSoBanXe.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpKhachHang.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpKho.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpLichSuKhachHang.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpLoaiXe.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpTonChiNhanh.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpTonKho.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpXe.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.XtraFormLogin.resources
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.csproj.GenerateResource.Cache
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.exe.licenses
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.exe
+G:\C# Project\Phan quyen nang cao trong c#\QuanLyCuaHangBanXe-master\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.pdb
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\QuanLyCuaHangBanXe.exe.config
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.exe
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.pdb
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\QuanLyCuaHangBanXe.exe
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\QuanLyCuaHangBanXe.pdb
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DataContext.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DataProvider.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.BonusSkins.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Charts.v14.1.Core.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Data.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Office.v14.1.Core.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.PivotGrid.v14.1.Core.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Printing.v14.1.Core.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.RichEdit.v14.1.Core.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Sparkline.v14.1.Core.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Utils.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Utils.v14.1.UI.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraBars.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraCharts.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraCharts.v14.1.Wizard.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraEditors.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraGrid.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraLayout.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraPivotGrid.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraPrinting.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraReports.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraReports.v14.1.Extensions.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\EnvDTE.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.CodeParser.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\VSLangProj.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\EnvDTE80.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.VisualStudio.CommandBars.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\stdole.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraTreeList.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraNavBar.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraRichEdit.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraVerticalGrid.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.DataAccess.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraCharts.v14.1.Extensions.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.DataAccess.v14.1.UI.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraGauges.v14.1.Core.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Xpo.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraWizard.v14.1.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.MSXML.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DataContext.pdb
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DataProvider.pdb
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Data.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.PivotGrid.v14.1.Core.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Printing.v14.1.Core.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Office.v14.1.Core.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.RichEdit.v14.1.Core.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Utils.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraBars.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraCharts.v14.1.Wizard.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraCharts.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraEditors.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraPrinting.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraGrid.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraLayout.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraPivotGrid.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Sparkline.v14.1.Core.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Utils.v14.1.UI.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraReports.v14.1.Extensions.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraReports.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraTreeList.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraNavBar.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraRichEdit.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraVerticalGrid.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.DataAccess.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.DataAccess.v14.1.UI.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraGauges.v14.1.Core.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.Xpo.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\DevExpress.XtraWizard.v14.1.xml
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.Data.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.Data.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.Data.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.Data.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.Office.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.Office.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.Office.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.Office.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.Utils.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.Utils.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.Utils.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.Utils.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraBars.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraBars.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraBars.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraBars.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraCharts.v14.1.Wizard.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraCharts.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraCharts.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraCharts.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraCharts.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraPivotGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraPivotGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraPivotGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraPivotGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.Utils.v14.1.UI.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.Utils.v14.1.UI.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.Utils.v14.1.UI.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.Utils.v14.1.UI.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraReports.v14.1.Extensions.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraReports.v14.1.Extensions.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraReports.v14.1.Extensions.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraReports.v14.1.Extensions.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraReports.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraReports.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraReports.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraReports.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraNavBar.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraNavBar.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraNavBar.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraNavBar.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraRichEdit.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraRichEdit.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraRichEdit.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraRichEdit.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraVerticalGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraVerticalGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraVerticalGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraVerticalGrid.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.DataAccess.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.DataAccess.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.DataAccess.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.DataAccess.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.DataAccess.v14.1.UI.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.DataAccess.v14.1.UI.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.DataAccess.v14.1.UI.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.DataAccess.v14.1.UI.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.Xpo.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.Xpo.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.Xpo.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.Xpo.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\de\DevExpress.XtraWizard.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\es\DevExpress.XtraWizard.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ja\DevExpress.XtraWizard.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\bin\Debug\ru\DevExpress.XtraWizard.v14.1.resources.dll
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.csprojResolveAssemblyReference.cache
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.Main.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.Properties.Resources.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpChiNhanh.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpHoSoBanXe.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpKhachHang.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpKho.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpLichSuKhachHang.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpLoaiXe.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpTonChiNhanh.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpTonKho.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.rpXe.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.XtraFormLogin.resources
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.csproj.GenerateResource.Cache
+D:\Csharp\cc\QuanLyCuaHangBanXe\QuanLyCuaHangBanXe\obj\Debug\QuanLyCuaHangBanXe.exe.licenses
