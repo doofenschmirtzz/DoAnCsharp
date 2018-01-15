@@ -45,10 +45,14 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTienCong)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtTienCong
@@ -102,7 +106,7 @@
             this.labelX1.BackColor = System.Drawing.Color.Transparent;
             this.labelX1.Font = new System.Drawing.Font("Sitka Small", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX1.ForeColor = System.Drawing.Color.White;
-            this.labelX1.Location = new System.Drawing.Point(275, 4);
+            this.labelX1.Location = new System.Drawing.Point(365, 5);
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(313, 48);
             this.labelX1.TabIndex = 20;
@@ -111,11 +115,11 @@
             // btnNhapMoi
             // 
             this.btnNhapMoi.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnNhapMoi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNhapMoi.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnNhapMoi.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnNhapMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapMoi.Image = ((System.Drawing.Image)(resources.GetObject("btnNhapMoi.Image")));
-            this.btnNhapMoi.Location = new System.Drawing.Point(482, 175);
+            this.btnNhapMoi.Location = new System.Drawing.Point(24, 28);
             this.btnNhapMoi.Name = "btnNhapMoi";
             this.btnNhapMoi.Size = new System.Drawing.Size(125, 49);
             this.btnNhapMoi.TabIndex = 21;
@@ -125,12 +129,12 @@
             // btnSua
             // 
             this.btnSua.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnSua.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSua.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSua.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnSua.Enabled = false;
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
-            this.btnSua.Location = new System.Drawing.Point(646, 175);
+            this.btnSua.Location = new System.Drawing.Point(188, 28);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(122, 49);
             this.btnSua.TabIndex = 21;
@@ -140,12 +144,12 @@
             // btnThem
             // 
             this.btnThem.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnThem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThem.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnThem.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnThem.Enabled = false;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
-            this.btnThem.Location = new System.Drawing.Point(483, 233);
+            this.btnThem.Location = new System.Drawing.Point(25, 86);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(124, 51);
             this.btnThem.TabIndex = 21;
@@ -168,23 +172,23 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvTienCong.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvTienCong.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dgvTienCong.Location = new System.Drawing.Point(13, 27);
+            this.dgvTienCong.Location = new System.Drawing.Point(72, 22);
             this.dgvTienCong.Name = "dgvTienCong";
             this.dgvTienCong.ReadOnly = true;
             this.dgvTienCong.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvTienCong.Size = new System.Drawing.Size(429, 327);
+            this.dgvTienCong.Size = new System.Drawing.Size(504, 456);
             this.dgvTienCong.TabIndex = 22;
             this.dgvTienCong.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTienCong_CellClick);
             // 
             // btnXoa
             // 
             this.btnXoa.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnXoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnXoa.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnXoa.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnXoa.Enabled = false;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.Image = global::QLGR.Properties.Resources.Delete_4;
-            this.btnXoa.Location = new System.Drawing.Point(646, 234);
+            this.btnXoa.Location = new System.Drawing.Point(188, 87);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(122, 50);
             this.btnXoa.TabIndex = 21;
@@ -194,11 +198,11 @@
             // btnDong
             // 
             this.btnDong.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnDong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDong.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDong.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
-            this.btnDong.Location = new System.Drawing.Point(482, 316);
+            this.btnDong.Location = new System.Drawing.Point(22, 21);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(285, 34);
             this.btnDong.TabIndex = 23;
@@ -209,24 +213,21 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.labelX1);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(0, -3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(802, 51);
+            this.panel1.Size = new System.Drawing.Size(1069, 55);
             this.panel1.TabIndex = 24;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(197)))), ((int)(((byte)(130)))));
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.btnDong);
             this.panel2.Controls.Add(this.dgvTienCong);
-            this.panel2.Controls.Add(this.btnXoa);
-            this.panel2.Controls.Add(this.btnThem);
-            this.panel2.Controls.Add(this.btnSua);
-            this.panel2.Controls.Add(this.btnNhapMoi);
             this.panel2.Location = new System.Drawing.Point(0, 51);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(802, 391);
+            this.panel2.Size = new System.Drawing.Size(1069, 641);
             this.panel2.TabIndex = 25;
             // 
             // panel3
@@ -237,10 +238,11 @@
             this.panel3.Controls.Add(this.txtNoiDung);
             this.panel3.Controls.Add(this.labelX3);
             this.panel3.Controls.Add(this.labelX2);
-            this.panel3.Location = new System.Drawing.Point(469, 35);
+            this.panel3.Location = new System.Drawing.Point(648, 22);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(308, 123);
+            this.panel3.Size = new System.Drawing.Size(330, 151);
             this.panel3.TabIndex = 24;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // label1
             // 
@@ -253,12 +255,35 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "Thông tin";
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(78)))), ((int)(((byte)(85)))));
+            this.panel4.Controls.Add(this.btnXoa);
+            this.panel4.Controls.Add(this.btnThem);
+            this.panel4.Controls.Add(this.btnSua);
+            this.panel4.Controls.Add(this.btnNhapMoi);
+            this.panel4.Location = new System.Drawing.Point(649, 195);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(329, 179);
+            this.panel4.TabIndex = 25;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(78)))), ((int)(((byte)(85)))));
+            this.panel5.Controls.Add(this.btnDong);
+            this.panel5.Location = new System.Drawing.Point(650, 401);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(328, 77);
+            this.panel5.TabIndex = 26;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            // 
             // frmTienCong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(802, 441);
+            this.ClientSize = new System.Drawing.Size(1068, 692);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -270,6 +295,8 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -290,5 +317,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel4;
     }
 }

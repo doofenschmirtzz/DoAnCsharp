@@ -116,7 +116,11 @@ namespace QLGR.Presentation
             }
         }
 
-     
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            panel2.BackColor = Color.FromArgb(140, 63, 78, 85);
+
+        }
 
         private void btnInPhieu_Click(object sender, EventArgs e)
         {

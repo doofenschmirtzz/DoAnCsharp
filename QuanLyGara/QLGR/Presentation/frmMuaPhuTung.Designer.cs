@@ -35,9 +35,9 @@
             this.btnHuy = new DevComponents.DotNetBar.ButtonX();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -110,6 +110,17 @@
             this.panel2.Size = new System.Drawing.Size(641, 44);
             this.panel2.TabIndex = 11;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Lucida Console", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(178, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(331, 21);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "M U A   P H Ụ   T Ù N G";
+            // 
             // panel3
             // 
             this.panel3.Location = new System.Drawing.Point(0, 43);
@@ -125,17 +136,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(328, 293);
             this.panel4.TabIndex = 12;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Console", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(178, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(331, 21);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "M U A   P H Ụ   T Ù N G";
             // 
             // frmMuaPhuTung
             // 

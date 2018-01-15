@@ -33,21 +33,21 @@
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.btnDong = new DevComponents.DotNetBar.ButtonX();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +58,7 @@
             this.labelX4.Location = new System.Drawing.Point(38, 13);
             this.labelX4.Name = "labelX4";
             this.labelX4.SingleLineColor = System.Drawing.Color.Transparent;
-            this.labelX4.Size = new System.Drawing.Size(736, 65);
+            this.labelX4.Size = new System.Drawing.Size(736, 54);
             this.labelX4.TabIndex = 5;
             this.labelX4.Text = "P H Ầ N   M Ề M   Q U Ả N   L Ý   G A R A    ÔTÔ";
             // 
@@ -67,10 +67,10 @@
             this.labelX2.BackColor = System.Drawing.Color.Transparent;
             this.labelX2.Font = new System.Drawing.Font("Segoe Print", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX2.ForeColor = System.Drawing.Color.Black;
-            this.labelX2.Location = new System.Drawing.Point(171, 57);
+            this.labelX2.Location = new System.Drawing.Point(171, 73);
             this.labelX2.Name = "labelX2";
             this.labelX2.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelX2.Size = new System.Drawing.Size(459, 70);
+            this.labelX2.Size = new System.Drawing.Size(459, 43);
             this.labelX2.TabIndex = 5;
             this.labelX2.Text = "p r o d u c t    r e l e a s e d    b y    T e a m    D o D o n";
             // 
@@ -114,33 +114,116 @@
             this.panel1.TabIndex = 7;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
-            // panel2
+            // label6
             // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.Location = new System.Drawing.Point(145, 176);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(27, 27);
-            this.panel2.TabIndex = 7;
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(431, 123);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(115, 23);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Đặng Vũ Khanh";
             // 
-            // panel3
+            // label5
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
-            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.panel3.Location = new System.Drawing.Point(562, 173);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(22, 23);
-            this.panel3.TabIndex = 8;
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(581, 123);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(114, 23);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Hoàng Anh Huy";
             // 
-            // panel4
+            // label4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
-            this.panel4.Location = new System.Drawing.Point(325, 173);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(21, 23);
-            this.panel4.TabIndex = 8;
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(252, 123);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(129, 23);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Nguyễn Sỹ Hoàng";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(123, 123);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(90, 23);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Bùi Hữu Tài";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Transparent;
+            this.panel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel8.BackgroundImage")));
+            this.panel8.Location = new System.Drawing.Point(394, 122);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(27, 25);
+            this.panel8.TabIndex = 11;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Transparent;
+            this.panel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel7.BackgroundImage")));
+            this.panel7.Location = new System.Drawing.Point(219, 122);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(27, 25);
+            this.panel7.TabIndex = 10;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Transparent;
+            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
+            this.panel6.Location = new System.Drawing.Point(548, 122);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(27, 25);
+            this.panel6.TabIndex = 9;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
+            this.panel5.Location = new System.Drawing.Point(90, 122);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(27, 25);
+            this.panel5.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(178, 180);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(80, 17);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "0945 068 676";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(362, 179);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(141, 17);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "huutaibui97@gmail.com";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel2.Location = new System.Drawing.Point(307, 157);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(0, 14);
+            this.linkLabel2.TabIndex = 10;
             // 
             // linkLabel1
             // 
@@ -154,116 +237,33 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "fb.com/agforl";
             // 
-            // linkLabel2
+            // panel4
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel2.Location = new System.Drawing.Point(307, 157);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(0, 14);
-            this.linkLabel2.TabIndex = 10;
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
+            this.panel4.Location = new System.Drawing.Point(325, 173);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(21, 23);
+            this.panel4.TabIndex = 8;
             // 
-            // label1
+            // panel3
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(362, 179);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 17);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "huutaibui97@gmail.com";
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.panel3.Location = new System.Drawing.Point(562, 173);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(22, 23);
+            this.panel3.TabIndex = 8;
             // 
-            // label2
+            // panel2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(178, 180);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 17);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "0945 068 676";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
-            this.panel5.Location = new System.Drawing.Point(90, 122);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(27, 25);
-            this.panel5.TabIndex = 8;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Transparent;
-            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
-            this.panel6.Location = new System.Drawing.Point(548, 122);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(27, 25);
-            this.panel6.TabIndex = 9;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Transparent;
-            this.panel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel7.BackgroundImage")));
-            this.panel7.Location = new System.Drawing.Point(219, 122);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(27, 25);
-            this.panel7.TabIndex = 10;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Transparent;
-            this.panel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel8.BackgroundImage")));
-            this.panel8.Location = new System.Drawing.Point(394, 122);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(27, 25);
-            this.panel8.TabIndex = 11;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(123, 123);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 23);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Bùi Hữu Tài";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(252, 123);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(129, 23);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "Nguyễn Sỹ Hoàng";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(581, 123);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 23);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "Hoàng Anh Huy";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(431, 123);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(115, 23);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Đặng Vũ Khanh";
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.Location = new System.Drawing.Point(145, 176);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(27, 27);
+            this.panel2.TabIndex = 7;
             // 
             // frmThongTinPhanMem
             // 

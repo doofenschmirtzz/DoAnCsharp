@@ -91,6 +91,9 @@
     <Compile Include="DataLayer\ThayDoiTienNoDAL.cs" />
     <Compile Include="DataLayer\TienCongDAL.cs" />
     <Compile Include="DataLayer\XeDAL.cs" />
+    <Compile Include="dsBaoCaoVT.cs">
+      <DependentUpon>dsBaoCaoVT.xsd</DependentUpon>
+    </Compile>
     <Compile Include="dsBaoCaoVT.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -167,7 +170,7 @@
     <Compile Include="Presentation\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\frmMain.Designer.cs">
+    <Compile Include="Presentation\frmMain.designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentation\frmMuaPhuTung.cs">
@@ -257,7 +260,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\ControlFormat.cs" />
-    <EmbeddedResource Include="Bill_Report\PhieuSuaChua.rdlc" />
+    <EmbeddedResource Include="Bill_Report\PhieuSuaChua.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bill_Report\PhieuThuTien.rdlc" />
     <EmbeddedResource Include="Bill_Report\PhieuTiepNhanXe.rdlc" />
     <EmbeddedResource Include="Bill_Report\rpDoanhSo.rdlc" />

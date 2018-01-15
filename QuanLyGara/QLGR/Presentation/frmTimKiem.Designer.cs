@@ -92,11 +92,11 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvTimKiem.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgvTimKiem.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dgvTimKiem.Location = new System.Drawing.Point(29, 91);
+            this.dgvTimKiem.Location = new System.Drawing.Point(29, 72);
             this.dgvTimKiem.Name = "dgvTimKiem";
             this.dgvTimKiem.ReadOnly = true;
             this.dgvTimKiem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvTimKiem.Size = new System.Drawing.Size(421, 324);
+            this.dgvTimKiem.Size = new System.Drawing.Size(421, 322);
             this.dgvTimKiem.TabIndex = 0;
             this.dgvTimKiem.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTimKiem_CellClick);
             // 
@@ -135,7 +135,7 @@
             this.btnCapNhat.Image = ((System.Drawing.Image)(resources.GetObject("btnCapNhat.Image")));
             this.btnCapNhat.Location = new System.Drawing.Point(921, 104);
             this.btnCapNhat.Name = "btnCapNhat";
-            this.btnCapNhat.Size = new System.Drawing.Size(116, 72);
+            this.btnCapNhat.Size = new System.Drawing.Size(124, 72);
             this.btnCapNhat.TabIndex = 4;
             this.btnCapNhat.Text = "Cập nhật";
             this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
@@ -173,7 +173,7 @@
             this.labelX10.BackColor = System.Drawing.Color.Transparent;
             this.labelX10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelX10.Location = new System.Drawing.Point(346, 22);
+            this.labelX10.Location = new System.Drawing.Point(350, 22);
             this.labelX10.Name = "labelX10";
             this.labelX10.Size = new System.Drawing.Size(153, 23);
             this.labelX10.TabIndex = 0;
@@ -185,7 +185,7 @@
             this.labelSL.BackColor = System.Drawing.Color.Transparent;
             this.labelSL.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelSL.Location = new System.Drawing.Point(505, 22);
+            this.labelSL.Location = new System.Drawing.Point(509, 22);
             this.labelSL.Name = "labelSL";
             this.labelSL.Size = new System.Drawing.Size(31, 23);
             this.labelSL.TabIndex = 7;
@@ -197,7 +197,7 @@
             this.labelX11.BackColor = System.Drawing.Color.Transparent;
             this.labelX11.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX11.ForeColor = System.Drawing.Color.White;
-            this.labelX11.Location = new System.Drawing.Point(451, 3);
+            this.labelX11.Location = new System.Drawing.Point(436, 3);
             this.labelX11.Name = "labelX11";
             this.labelX11.Size = new System.Drawing.Size(275, 46);
             this.labelX11.TabIndex = 6;
@@ -273,9 +273,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.labelX11);
-            this.panel1.Location = new System.Drawing.Point(-1, -1);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1099, 60);
+            this.panel1.Size = new System.Drawing.Size(1068, 60);
             this.panel1.TabIndex = 12;
             // 
             // labelX7
@@ -550,7 +550,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(197)))), ((int)(((byte)(130)))));
-            this.ClientSize = new System.Drawing.Size(1098, 667);
+            this.ClientSize = new System.Drawing.Size(1068, 692);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel5);

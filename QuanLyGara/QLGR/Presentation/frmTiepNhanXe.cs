@@ -119,5 +119,15 @@ namespace QLGR.Presentation
         {
 
         }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+            panel4.BackColor = Color.FromArgb(120, 63, 78, 85);
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+            panel3.BackColor = Color.FromArgb(120, 63, 78, 85);
+        }
     }
 }

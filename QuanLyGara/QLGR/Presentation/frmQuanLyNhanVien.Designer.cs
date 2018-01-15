@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQuanLyNhanVien));
             this.dgvDanhSachTaiKhoan = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.txtEmail_them = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -75,6 +75,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.tableAdapterManager1 = new QLGR.BCDTTableAdapters.TableAdapterManager();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachTaiKhoan)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -89,20 +90,20 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dgvDanhSachTaiKhoan.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dgvDanhSachTaiKhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDanhSachTaiKhoan.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDanhSachTaiKhoan.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDanhSachTaiKhoan.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgvDanhSachTaiKhoan.Location = new System.Drawing.Point(23, 77);
             this.dgvDanhSachTaiKhoan.Name = "dgvDanhSachTaiKhoan";
             this.dgvDanhSachTaiKhoan.ReadOnly = true;
             this.dgvDanhSachTaiKhoan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDanhSachTaiKhoan.Size = new System.Drawing.Size(446, 535);
+            this.dgvDanhSachTaiKhoan.Size = new System.Drawing.Size(446, 538);
             this.dgvDanhSachTaiKhoan.TabIndex = 1;
             this.dgvDanhSachTaiKhoan.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachTaiKhoan_CellClick);
             // 
@@ -204,7 +205,7 @@
             this.btnThem.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
-            this.btnThem.Location = new System.Drawing.Point(207, 265);
+            this.btnThem.Location = new System.Drawing.Point(137, 265);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(129, 34);
             this.btnThem.TabIndex = 10;
@@ -332,9 +333,9 @@
             this.labelX6.BackColor = System.Drawing.Color.Transparent;
             this.labelX6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX6.ForeColor = System.Drawing.Color.White;
-            this.labelX6.Location = new System.Drawing.Point(69, 37);
+            this.labelX6.Location = new System.Drawing.Point(63, 37);
             this.labelX6.Name = "labelX6";
-            this.labelX6.Size = new System.Drawing.Size(94, 23);
+            this.labelX6.Size = new System.Drawing.Size(100, 23);
             this.labelX6.TabIndex = 2;
             this.labelX6.Text = "Tên tài khoản:";
             // 
@@ -541,7 +542,7 @@
             this.labelX14.BackColor = System.Drawing.Color.Transparent;
             this.labelX14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX14.ForeColor = System.Drawing.Color.White;
-            this.labelX14.Location = new System.Drawing.Point(223, 3);
+            this.labelX14.Location = new System.Drawing.Point(223, 6);
             this.labelX14.Name = "labelX14";
             this.labelX14.SingleLineColor = System.Drawing.Color.Transparent;
             this.labelX14.Size = new System.Drawing.Size(677, 42);
@@ -557,11 +558,12 @@
             this.btnDong.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
-            this.btnDong.Location = new System.Drawing.Point(974, 3);
+            this.btnDong.Location = new System.Drawing.Point(307, 265);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(48, 51);
+            this.btnDong.Size = new System.Drawing.Size(121, 37);
             this.btnDong.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.btnDong.TabIndex = 7;
+            this.btnDong.Text = "Thoát";
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // label1
@@ -594,7 +596,7 @@
             this.panel1.Controls.Add(this.labelX2);
             this.panel1.Location = new System.Drawing.Point(502, 77);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(484, 210);
+            this.panel1.Size = new System.Drawing.Size(517, 210);
             this.panel1.TabIndex = 10;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -602,6 +604,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(78)))), ((int)(((byte)(85)))));
             this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.btnDong);
             this.panel2.Controls.Add(this.txtEmail_them);
             this.panel2.Controls.Add(this.txtDiaChi_them);
             this.panel2.Controls.Add(this.txtSDT_them);
@@ -627,7 +630,7 @@
             this.panel2.Controls.Add(this.txtTenTaiKhoan);
             this.panel2.Location = new System.Drawing.Point(502, 313);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(484, 302);
+            this.panel2.Size = new System.Drawing.Size(517, 302);
             this.panel2.TabIndex = 18;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -645,18 +648,23 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel3.Controls.Add(this.labelX14);
-            this.panel3.Controls.Add(this.btnDong);
-            this.panel3.Location = new System.Drawing.Point(0, -2);
+            this.panel3.Location = new System.Drawing.Point(-1, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1115, 57);
+            this.panel3.Size = new System.Drawing.Size(1071, 57);
             this.panel3.TabIndex = 19;
+            // 
+            // tableAdapterManager1
+            // 
+            this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager1.Connection = null;
+            this.tableAdapterManager1.UpdateOrder = QLGR.BCDTTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // frmQuanLyNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(197)))), ((int)(((byte)(130)))));
-            this.ClientSize = new System.Drawing.Size(1023, 630);
+            this.ClientSize = new System.Drawing.Size(1068, 692);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dgvDanhSachTaiKhoan);
@@ -722,5 +730,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel3;
+        private BCDTTableAdapters.TableAdapterManager tableAdapterManager1;
     }
 }

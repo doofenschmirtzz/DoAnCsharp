@@ -223,5 +223,7 @@ namespace QLGR.Presentation
         {
             panel2.BackColor = Color.FromArgb(140, 63, 78, 85);
         }
+
+       
     }
 }

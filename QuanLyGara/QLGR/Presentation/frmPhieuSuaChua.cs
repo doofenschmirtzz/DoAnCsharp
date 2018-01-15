@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using QLGR.BusinessLayer;
 using QLGR.Entities;
 using DevComponents.DotNetBar;
+using System.Drawing;
 
 namespace QLGR.Presentation
 {
@@ -231,6 +232,17 @@ namespace QLGR.Presentation
             {
                 MessageBox.Show(ex.Message, "Thông báo");
             }
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+            panel3.BackColor = Color.FromArgb(140, 63, 78, 85);
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+            panel4.BackColor = Color.FromArgb(140, 63, 78, 85);
+
         }
     }
 }
