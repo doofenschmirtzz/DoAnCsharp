@@ -34,7 +34,6 @@
             this.labelX3 = new DevComponents.DotNetBar.LabelX();
             this.labelX4 = new DevComponents.DotNetBar.LabelX();
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
-            this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.txtChucVu = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.txtEmail = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.txtDiaChi = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -42,18 +41,19 @@
             this.txtHoTen = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.btnXong = new DevComponents.DotNetBar.ButtonX();
             this.labelX6 = new DevComponents.DotNetBar.LabelX();
-            this.groupPanel1.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelX1
             // 
             this.labelX1.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX1.Location = new System.Drawing.Point(16, 6);
+            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX1.ForeColor = System.Drawing.Color.White;
+            this.labelX1.Location = new System.Drawing.Point(347, 86);
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(53, 23);
             this.labelX1.TabIndex = 0;
@@ -62,12 +62,9 @@
             // labelX2
             // 
             this.labelX2.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX2.Location = new System.Drawing.Point(31, 35);
+            this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX2.ForeColor = System.Drawing.Color.White;
+            this.labelX2.Location = new System.Drawing.Point(362, 128);
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(38, 23);
             this.labelX2.TabIndex = 0;
@@ -76,12 +73,9 @@
             // labelX3
             // 
             this.labelX3.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX3.Location = new System.Drawing.Point(16, 64);
+            this.labelX3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX3.ForeColor = System.Drawing.Color.White;
+            this.labelX3.Location = new System.Drawing.Point(347, 170);
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(53, 23);
             this.labelX3.TabIndex = 0;
@@ -90,12 +84,9 @@
             // labelX4
             // 
             this.labelX4.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX4.Location = new System.Drawing.Point(23, 93);
+            this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX4.ForeColor = System.Drawing.Color.White;
+            this.labelX4.Location = new System.Drawing.Point(354, 215);
             this.labelX4.Name = "labelX4";
             this.labelX4.Size = new System.Drawing.Size(46, 23);
             this.labelX4.TabIndex = 0;
@@ -104,64 +95,13 @@
             // labelX5
             // 
             this.labelX5.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX5.Location = new System.Drawing.Point(5, 122);
+            this.labelX5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX5.ForeColor = System.Drawing.Color.White;
+            this.labelX5.Location = new System.Drawing.Point(336, 259);
             this.labelX5.Name = "labelX5";
             this.labelX5.Size = new System.Drawing.Size(64, 23);
             this.labelX5.TabIndex = 0;
             this.labelX5.Text = "Chức vụ:";
-            // 
-            // groupPanel1
-            // 
-            this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel1.Controls.Add(this.txtChucVu);
-            this.groupPanel1.Controls.Add(this.txtEmail);
-            this.groupPanel1.Controls.Add(this.txtDiaChi);
-            this.groupPanel1.Controls.Add(this.txtSDT);
-            this.groupPanel1.Controls.Add(this.txtHoTen);
-            this.groupPanel1.Controls.Add(this.labelX1);
-            this.groupPanel1.Controls.Add(this.labelX2);
-            this.groupPanel1.Controls.Add(this.labelX3);
-            this.groupPanel1.Controls.Add(this.labelX5);
-            this.groupPanel1.Controls.Add(this.labelX4);
-            this.groupPanel1.Location = new System.Drawing.Point(48, 81);
-            this.groupPanel1.Name = "groupPanel1";
-            this.groupPanel1.Size = new System.Drawing.Size(332, 179);
-            // 
-            // 
-            // 
-            this.groupPanel1.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel1.Style.BackColorGradientAngle = 90;
-            this.groupPanel1.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel1.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderBottomWidth = 1;
-            this.groupPanel1.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel1.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderLeftWidth = 1;
-            this.groupPanel1.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderRightWidth = 1;
-            this.groupPanel1.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderTopWidth = 1;
-            this.groupPanel1.Style.CornerDiameter = 4;
-            this.groupPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel1.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel1.TabIndex = 0;
-            this.groupPanel1.Text = "Thông tin cá nhân";
             // 
             // txtChucVu
             // 
@@ -169,9 +109,8 @@
             // 
             // 
             this.txtChucVu.Border.Class = "TextBoxBorder";
-            this.txtChucVu.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txtChucVu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtChucVu.Location = new System.Drawing.Point(75, 125);
+            this.txtChucVu.Location = new System.Drawing.Point(406, 262);
             this.txtChucVu.Name = "txtChucVu";
             this.txtChucVu.ReadOnly = true;
             this.txtChucVu.Size = new System.Drawing.Size(244, 24);
@@ -183,9 +122,8 @@
             // 
             // 
             this.txtEmail.Border.Class = "TextBoxBorder";
-            this.txtEmail.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(75, 96);
+            this.txtEmail.Location = new System.Drawing.Point(406, 218);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(244, 24);
             this.txtEmail.TabIndex = 3;
@@ -196,9 +134,8 @@
             // 
             // 
             this.txtDiaChi.Border.Class = "TextBoxBorder";
-            this.txtDiaChi.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txtDiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiaChi.Location = new System.Drawing.Point(75, 67);
+            this.txtDiaChi.Location = new System.Drawing.Point(406, 173);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(244, 24);
             this.txtDiaChi.TabIndex = 2;
@@ -209,9 +146,8 @@
             // 
             // 
             this.txtSDT.Border.Class = "TextBoxBorder";
-            this.txtSDT.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txtSDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSDT.Location = new System.Drawing.Point(75, 38);
+            this.txtSDT.Location = new System.Drawing.Point(406, 131);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(244, 24);
             this.txtSDT.TabIndex = 1;
@@ -222,9 +158,8 @@
             // 
             // 
             this.txtHoTen.Border.Class = "TextBoxBorder";
-            this.txtHoTen.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txtHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHoTen.Location = new System.Drawing.Point(75, 9);
+            this.txtHoTen.Location = new System.Drawing.Point(406, 89);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(244, 24);
             this.txtHoTen.TabIndex = 0;
@@ -234,7 +169,7 @@
             this.btnXong.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnXong.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnXong.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXong.Location = new System.Drawing.Point(162, 278);
+            this.btnXong.Location = new System.Drawing.Point(461, 328);
             this.btnXong.Name = "btnXong";
             this.btnXong.Size = new System.Drawing.Size(108, 42);
             this.btnXong.TabIndex = 1;
@@ -243,33 +178,68 @@
             // 
             // labelX6
             // 
-            // 
-            // 
-            // 
-            this.labelX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX6.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX6.Location = new System.Drawing.Point(25, 0);
+            this.labelX6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX6.ForeColor = System.Drawing.Color.White;
+            this.labelX6.Location = new System.Drawing.Point(206, 0);
             this.labelX6.Name = "labelX6";
-            this.labelX6.Size = new System.Drawing.Size(387, 75);
+            this.labelX6.SingleLineColor = System.Drawing.Color.Transparent;
+            this.labelX6.Size = new System.Drawing.Size(250, 36);
             this.labelX6.TabIndex = 3;
             this.labelX6.Text = "THÔNG TIN TÀI KHOẢN";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(197)))), ((int)(((byte)(130)))));
+            this.panel1.Controls.Add(this.labelX6);
+            this.panel1.Location = new System.Drawing.Point(1, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(676, 36);
+            this.panel1.TabIndex = 5;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(78)))), ((int)(((byte)(85)))));
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Location = new System.Drawing.Point(1, 36);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(325, 450);
+            this.panel2.TabIndex = 6;
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.Location = new System.Drawing.Point(11, 29);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(295, 305);
+            this.panel3.TabIndex = 0;
             // 
             // frmThongTinTaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(437, 331);
-            this.Controls.Add(this.labelX6);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.ClientSize = new System.Drawing.Size(677, 394);
+            this.Controls.Add(this.txtChucVu);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.btnXong);
-            this.Controls.Add(this.groupPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Controls.Add(this.txtDiaChi);
+            this.Controls.Add(this.txtSDT);
+            this.Controls.Add(this.labelX1);
+            this.Controls.Add(this.txtHoTen);
+            this.Controls.Add(this.labelX4);
+            this.Controls.Add(this.labelX5);
+            this.Controls.Add(this.labelX2);
+            this.Controls.Add(this.labelX3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimizeBox = false;
             this.Name = "frmThongTinTaiKhoan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmThongTinTaiKhoan_Load);
-            this.groupPanel1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -281,7 +251,6 @@
         private DevComponents.DotNetBar.LabelX labelX3;
         private DevComponents.DotNetBar.LabelX labelX4;
         private DevComponents.DotNetBar.LabelX labelX5;
-        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel1;
         private DevComponents.DotNetBar.Controls.TextBoxX txtChucVu;
         private DevComponents.DotNetBar.Controls.TextBoxX txtEmail;
         private DevComponents.DotNetBar.Controls.TextBoxX txtDiaChi;
@@ -289,5 +258,8 @@
         private DevComponents.DotNetBar.Controls.TextBoxX txtHoTen;
         private DevComponents.DotNetBar.ButtonX btnXong;
         private DevComponents.DotNetBar.LabelX labelX6;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }

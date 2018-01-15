@@ -184,5 +184,20 @@ namespace QLGR.Presentation
                 MessageBox.Show(ex.Message, "Thông báo");
             }
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            panel2.BackColor = Color.FromArgb(120, 64, 64, 64);
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+            panel3.BackColor = Color.FromArgb(120, 64, 64, 64);
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+            panel4.BackColor = Color.FromArgb(120, 64, 64, 64);
+        }
     }
 }

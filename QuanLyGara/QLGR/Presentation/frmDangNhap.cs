@@ -74,5 +74,7 @@ namespace QLGR.Presentation
             if (txtTaiKhoan.TextLength != 0)
                 labStatus.Visible = false;
         }
+
+       
     }
 }

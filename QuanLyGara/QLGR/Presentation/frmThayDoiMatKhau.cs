@@ -1,6 +1,7 @@
 ﻿using System;
 using QLGR.BusinessLayer;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace QLGR.Presentation
 {
@@ -67,6 +68,11 @@ namespace QLGR.Presentation
                     return;
                 }
             }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            panel2.BackColor = Color.FromArgb(120, 63, 78, 85);
         }
     }
 }

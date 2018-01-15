@@ -109,5 +109,15 @@ namespace QLGR.Presentation
             txtHoTenCX.Clear();
             txtSDT.Clear();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            panel2.BackColor = Color.FromArgb(120,63, 78, 85);
+        }
+
+        private void cboHieuXe_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

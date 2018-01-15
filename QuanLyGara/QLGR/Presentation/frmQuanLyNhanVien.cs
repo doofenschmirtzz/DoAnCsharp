@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System;
 using QLGR.Entities;
 using DevComponents.DotNetBar;
+using System.Drawing;
 
 namespace QLGR.Presentation
 {
@@ -124,7 +125,7 @@ namespace QLGR.Presentation
             if (string.Equals(txtMatKhau.Text, txtMatKhauNhapLai.Text)&&!string.IsNullOrEmpty(txtTenTaiKhoan.Text)&&!string.IsNullOrEmpty(txtMatKhau.Text))
             {
                 if (txtMatKhau.Text.Length >= 4 && txtMatKhau.Text.Length <= 20)
-                    if (txtTenTaiKhoan.Text.Length == 0 || txtTenTaiKhoan.Text.Length < 20)
+                    if (txtTenTaiKhoan.Text.Length == 0 || txtTenTaiKhoan.Text.Length > 20)
                         try
                         {
                             string quyen = "";
@@ -206,6 +207,21 @@ namespace QLGR.Presentation
         {
             this.Close();
             tabControl.Tabs.Remove(tab);
+        }
+
+        private void labelX14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            panel1.BackColor = Color.FromArgb(140, 63, 78, 85);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            panel2.BackColor = Color.FromArgb(140, 63, 78, 85);
         }
     }
 }

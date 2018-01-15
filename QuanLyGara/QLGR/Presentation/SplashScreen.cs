@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 
@@ -23,7 +24,15 @@ namespace QLGR.Presentation
             }
         }
 
+        private void labelX1_Click(object sender, EventArgs e)
+        {
 
+        }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            panel1.BackColor = Color.FromArgb(170, 45, 45, 48);
+          
+        }
     }
 }

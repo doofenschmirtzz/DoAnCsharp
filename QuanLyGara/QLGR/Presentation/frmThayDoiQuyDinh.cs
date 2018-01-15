@@ -55,5 +55,10 @@ namespace QLGR.Presentation
             this.Close();
             tabControl.Tabs.Remove(tab);
         }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+            panel4.BackColor = Color.FromArgb(120, 63, 78, 85);
+        }
     }
 }
