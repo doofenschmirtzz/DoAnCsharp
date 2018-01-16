@@ -320,3 +320,6 @@ D:\Csharp\qloto\QuanLyGara\QLGR\obj\Debug\QLGR.Presentation.frmLapPhieuThuTien.r
 D:\Csharp\qloto\QuanLyGara\QLGR\obj\Debug\QLGR.Presentation.SplashScreen.resources
 D:\Csharp\qloto\QuanLyGara\QLGR\obj\Debug\QLGR.Properties.Resources.resources
 D:\Csharp\qloto\QuanLyGara\QLGR\obj\Debug\QLGR.csproj.GenerateResource.Cache
+D:\Csharp\DoAnCsharp\QuanLyGara\QLGR\bin\Debug\QLGR.exe.config
+D:\Csharp\DoAnCsharp\QuanLyGara\QLGR\obj\Debug\QLGR.exe
+D:\Csharp\DoAnCsharp\QuanLyGara\QLGR\obj\Debug\QLGR.pdb
