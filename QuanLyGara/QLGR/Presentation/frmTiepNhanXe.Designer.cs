@@ -108,7 +108,7 @@
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
             this.btnDong.Location = new System.Drawing.Point(941, 467);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(107, 92);
+            this.btnDong.Size = new System.Drawing.Size(116, 92);
             this.btnDong.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.btnDong.TabIndex = 1;
             this.btnDong.Text = "Đóng";
@@ -121,9 +121,9 @@
             this.btnInPhieu.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnInPhieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInPhieu.Image = ((System.Drawing.Image)(resources.GetObject("btnInPhieu.Image")));
-            this.btnInPhieu.Location = new System.Drawing.Point(807, 468);
+            this.btnInPhieu.Location = new System.Drawing.Point(795, 468);
             this.btnInPhieu.Name = "btnInPhieu";
-            this.btnInPhieu.Size = new System.Drawing.Size(113, 91);
+            this.btnInPhieu.Size = new System.Drawing.Size(128, 91);
             this.btnInPhieu.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.btnInPhieu.TabIndex = 1;
             this.btnInPhieu.Text = "In phiếu";
@@ -138,7 +138,7 @@
             this.btnNhapLai.Image = ((System.Drawing.Image)(resources.GetObject("btnNhapLai.Image")));
             this.btnNhapLai.Location = new System.Drawing.Point(941, 359);
             this.btnNhapLai.Name = "btnNhapLai";
-            this.btnNhapLai.Size = new System.Drawing.Size(107, 102);
+            this.btnNhapLai.Size = new System.Drawing.Size(116, 102);
             this.btnNhapLai.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.btnNhapLai.TabIndex = 1;
             this.btnNhapLai.Text = "Nhập lại";
@@ -152,9 +152,9 @@
             this.btnNhapXuong.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnNhapXuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapXuong.Image = ((System.Drawing.Image)(resources.GetObject("btnNhapXuong.Image")));
-            this.btnNhapXuong.Location = new System.Drawing.Point(807, 359);
+            this.btnNhapXuong.Location = new System.Drawing.Point(795, 359);
             this.btnNhapXuong.Name = "btnNhapXuong";
-            this.btnNhapXuong.Size = new System.Drawing.Size(113, 103);
+            this.btnNhapXuong.Size = new System.Drawing.Size(128, 103);
             this.btnNhapXuong.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.btnNhapXuong.TabIndex = 1;
             this.btnNhapXuong.Text = "Nhập";

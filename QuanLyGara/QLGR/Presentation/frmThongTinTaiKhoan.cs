@@ -3,6 +3,8 @@ using QLGR.BusinessLayer;
 using System.Data;
 using System.Windows.Forms;
 using QLGR.Entities;
+using System.Runtime.InteropServices;
+using DevComponents.DotNetBar;
 
 namespace QLGR.Presentation
 {
@@ -10,12 +12,25 @@ namespace QLGR.Presentation
     {
         public static string tenDangNhap, matKhau;
         string quyen;
+       
 
         public frmThongTinTaiKhoan()
         {
             InitializeComponent();
+    
+           
         }
 
+        private const int WM_NCLBUTTONDOWN = 0xA1;
+        private const int HTCAPTION = 0x2;
+
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+
+        [DllImport("user32.dll")]
+
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         private void frmThongTinTaiKhoan_Load(object sender, EventArgs e)
         {
             //txtChucVu.Text = DangNhapBLL.XemDL("QUYEN", tenDangNhap, matKhau).Rows[0][0].ToString();
@@ -40,6 +55,17 @@ namespace QLGR.Presentation
                 this.Close();
             }
             catch {; }
+        }
+
+        private void labelX1_MouseMove(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+          
         }
 
         void GetThongTinTaiKhoan()

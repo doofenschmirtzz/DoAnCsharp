@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using QLGR.BusinessLayer;
+using System.Runtime.InteropServices;
 
 namespace QLGR.Presentation
 {
@@ -10,6 +11,17 @@ namespace QLGR.Presentation
         {
             InitializeComponent();
         }
+
+        private const int WM_NCLBUTTONDOWN = 0xA1;
+        private const int HTCAPTION = 0x2;
+
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+
+        [DllImport("user32.dll")]
+
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 
         private void txtThoat_Click(object sender, EventArgs e)
         {
@@ -75,6 +87,16 @@ namespace QLGR.Presentation
                 labStatus.Visible = false;
         }
 
-       
+        private void panel2_MouseMove(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+        }
+
+        private void frmDangNhap_MouseMove(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+        }
     }
 }

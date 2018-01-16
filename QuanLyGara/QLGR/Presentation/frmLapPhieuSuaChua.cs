@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using QLGR.Entities;
 using DevComponents.DotNetBar;
 using QLGR.BusinessLayer;
+using System.Runtime.InteropServices;
 
 namespace QLGR.Presentation
 {
@@ -25,6 +26,17 @@ namespace QLGR.Presentation
             thongTinXe = new LapPhieuSuaChua();
             tabControl = _tabControl;
         }
+
+        private const int WM_NCLBUTTONDOWN = 0xA1;
+        private const int HTCAPTION = 0x2;
+
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+
+        [DllImport("user32.dll")]
+
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 
         private void LoadThongTinXe()
         {
@@ -114,6 +126,12 @@ namespace QLGR.Presentation
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void labelX1_MouseMove(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
         }
     }
 }

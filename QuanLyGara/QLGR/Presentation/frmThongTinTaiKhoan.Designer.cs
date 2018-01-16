@@ -42,6 +42,7 @@
             this.btnXong = new DevComponents.DotNetBar.ButtonX();
             this.labelX6 = new DevComponents.DotNetBar.LabelX();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -58,6 +59,7 @@
             this.labelX1.Size = new System.Drawing.Size(53, 23);
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "Họ tên:";
+            this.labelX1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // labelX2
             // 
@@ -69,6 +71,7 @@
             this.labelX2.Size = new System.Drawing.Size(38, 23);
             this.labelX2.TabIndex = 0;
             this.labelX2.Text = "SĐT:";
+            this.labelX2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // labelX3
             // 
@@ -80,6 +83,7 @@
             this.labelX3.Size = new System.Drawing.Size(53, 23);
             this.labelX3.TabIndex = 0;
             this.labelX3.Text = "Địa chỉ:";
+            this.labelX3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // labelX4
             // 
@@ -91,6 +95,7 @@
             this.labelX4.Size = new System.Drawing.Size(46, 23);
             this.labelX4.TabIndex = 0;
             this.labelX4.Text = "Email:";
+            this.labelX4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // labelX5
             // 
@@ -102,6 +107,7 @@
             this.labelX5.Size = new System.Drawing.Size(64, 23);
             this.labelX5.TabIndex = 0;
             this.labelX5.Text = "Chức vụ:";
+            this.labelX5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // txtChucVu
             // 
@@ -115,6 +121,7 @@
             this.txtChucVu.ReadOnly = true;
             this.txtChucVu.Size = new System.Drawing.Size(244, 24);
             this.txtChucVu.TabIndex = 4;
+            this.txtChucVu.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // txtEmail
             // 
@@ -127,6 +134,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(244, 24);
             this.txtEmail.TabIndex = 3;
+            this.txtEmail.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // txtDiaChi
             // 
@@ -139,6 +147,7 @@
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(244, 24);
             this.txtDiaChi.TabIndex = 2;
+            this.txtDiaChi.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // txtSDT
             // 
@@ -151,6 +160,7 @@
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(244, 24);
             this.txtSDT.TabIndex = 1;
+            this.txtSDT.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // txtHoTen
             // 
@@ -163,6 +173,7 @@
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(244, 24);
             this.txtHoTen.TabIndex = 0;
+            this.txtHoTen.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // btnXong
             // 
@@ -175,6 +186,7 @@
             this.btnXong.TabIndex = 1;
             this.btnXong.Text = "Lưu thay đổi";
             this.btnXong.Click += new System.EventHandler(this.btnXong_Click);
+            this.btnXong.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // labelX6
             // 
@@ -186,15 +198,29 @@
             this.labelX6.Size = new System.Drawing.Size(250, 36);
             this.labelX6.TabIndex = 3;
             this.labelX6.Text = "THÔNG TIN TÀI KHOẢN";
+            this.labelX6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(197)))), ((int)(((byte)(130)))));
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.labelX6);
             this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(676, 36);
             this.panel1.TabIndex = 5;
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(642, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(34, 36);
+            this.button1.TabIndex = 4;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -202,8 +228,9 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(1, 36);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(325, 450);
+            this.panel2.Size = new System.Drawing.Size(325, 360);
             this.panel2.TabIndex = 6;
+            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // panel3
             // 
@@ -212,6 +239,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(295, 305);
             this.panel3.TabIndex = 0;
+            this.panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // frmThongTinTaiKhoan
             // 
@@ -261,5 +289,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button1;
     }
 }

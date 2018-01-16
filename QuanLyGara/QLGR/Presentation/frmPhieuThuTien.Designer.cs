@@ -176,6 +176,7 @@
             this.txtTienTra.Name = "txtTienTra";
             this.txtTienTra.Size = new System.Drawing.Size(567, 24);
             this.txtTienTra.TabIndex = 1;
+            this.txtTienTra.Text = "0";
             this.txtTienTra.TextChanged += new System.EventHandler(this.txtTienTra_TextChanged);
             // 
             // txtTienNoConLai

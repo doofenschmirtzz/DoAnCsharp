@@ -78,7 +78,7 @@ namespace QLGR.Presentation
                         MessageBox.Show("Biển số xe đã tồn tại", "Thông báo", MessageBoxButtons.OK);
                 }
                 catch (Exception ex)
-                { MessageBox.Show("Vui lòng nhập đầy đủ thông tin cần thiết!","Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Warning); }
+                { MessageBox.Show("Vui lòng nhập đúng thông tin!","Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Warning); }
             }
             else
             {

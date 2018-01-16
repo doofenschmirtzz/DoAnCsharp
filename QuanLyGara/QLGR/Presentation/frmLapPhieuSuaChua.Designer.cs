@@ -37,6 +37,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -50,6 +51,7 @@
             this.labelX1.Size = new System.Drawing.Size(61, 23);
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "Biển số";
+            this.labelX1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // labelX2
             // 
@@ -60,6 +62,7 @@
             this.labelX2.Size = new System.Drawing.Size(61, 23);
             this.labelX2.TabIndex = 1;
             this.labelX2.Text = "Chủ xe:";
+            this.labelX2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // txtBienSo
             // 
@@ -74,6 +77,7 @@
             this.txtBienSo.Size = new System.Drawing.Size(210, 24);
             this.txtBienSo.TabIndex = 0;
             this.txtBienSo.TextChanged += new System.EventHandler(this.txtBienSo_TextChanged);
+            this.txtBienSo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // txtTenChuXe
             // 
@@ -89,6 +93,7 @@
             this.txtTenChuXe.Size = new System.Drawing.Size(210, 24);
             this.txtTenChuXe.TabIndex = 1;
             this.txtTenChuXe.TextChanged += new System.EventHandler(this.txtTenChuXe_TextChanged);
+            this.txtTenChuXe.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // btnLapPhieu
             // 
@@ -101,15 +106,18 @@
             this.btnLapPhieu.TabIndex = 2;
             this.btnLapPhieu.Text = "Lập phiếu";
             this.btnLapPhieu.Click += new System.EventHandler(this.btnLapPhieu_Click);
+            this.btnLapPhieu.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(197)))), ((int)(((byte)(130)))));
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Location = new System.Drawing.Point(0, -3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(492, 178);
             this.panel1.TabIndex = 3;
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // panel3
             // 
@@ -120,6 +128,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(170, 172);
             this.panel3.TabIndex = 3;
+            this.panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
             // 
             // panel2
             // 
@@ -133,6 +142,18 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(492, 194);
             this.panel2.TabIndex = 4;
+            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelX1_MouseMove);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(461, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(29, 28);
+            this.button1.TabIndex = 4;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // frmLapPhieuSuaChua
             // 
@@ -168,5 +189,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button1;
     }
 }

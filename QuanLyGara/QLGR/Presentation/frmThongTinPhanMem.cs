@@ -28,10 +28,7 @@ namespace QLGR.Presentation
 
         }
 
-        private void labelX3_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
        
 
@@ -40,5 +37,7 @@ namespace QLGR.Presentation
             panel1.BackColor = Color.FromArgb(120, 246, 246, 246);
 
         }
+
+       
     }
 }

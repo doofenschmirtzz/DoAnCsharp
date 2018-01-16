@@ -2,6 +2,7 @@
 using QLGR.BusinessLayer;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Runtime.InteropServices;
 
 namespace QLGR.Presentation
 {
@@ -14,6 +15,16 @@ namespace QLGR.Presentation
         {
             InitializeComponent();
         }
+        private const int WM_NCLBUTTONDOWN = 0xA1;
+        private const int HTCAPTION = 0x2;
+
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+
+        [DllImport("user32.dll")]
+
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
@@ -73,6 +84,69 @@ namespace QLGR.Presentation
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
             panel2.BackColor = Color.FromArgb(120, 63, 78, 85);
+        }
+
+        
+
+        private void labelX1_MouseMove_1(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+        }
+
+        private void labelX3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNhapLaiMKMoi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhauMoi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhauHienThoi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void labelX2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

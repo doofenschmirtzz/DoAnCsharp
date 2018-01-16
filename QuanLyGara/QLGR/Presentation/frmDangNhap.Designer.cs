@@ -41,9 +41,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -53,13 +53,14 @@
             // 
             this.chkHienMatKhau.BackColor = System.Drawing.Color.Transparent;
             this.chkHienMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkHienMatKhau.Location = new System.Drawing.Point(196, 93);
+            this.chkHienMatKhau.Location = new System.Drawing.Point(196, 105);
             this.chkHienMatKhau.Name = "chkHienMatKhau";
             this.chkHienMatKhau.Size = new System.Drawing.Size(119, 23);
             this.chkHienMatKhau.TabIndex = 3;
             this.chkHienMatKhau.Text = "Hiện mật khẩu";
             this.chkHienMatKhau.TextColor = System.Drawing.Color.White;
             this.chkHienMatKhau.CheckedChanged += new System.EventHandler(this.chkHienMatKhau_CheckedChanged);
+            this.chkHienMatKhau.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // txtMatKhau
             // 
@@ -68,13 +69,14 @@
             // 
             this.txtMatKhau.Border.Class = "TextBoxBorder";
             this.txtMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatKhau.Location = new System.Drawing.Point(150, 63);
+            this.txtMatKhau.Location = new System.Drawing.Point(150, 75);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '•';
             this.txtMatKhau.Size = new System.Drawing.Size(172, 24);
             this.txtMatKhau.TabIndex = 2;
             this.txtMatKhau.TextChanged += new System.EventHandler(this.txtMatKhau_TextChanged);
             this.txtMatKhau.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMatKhau_KeyDown);
+            this.txtMatKhau.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // txtTaiKhoan
             // 
@@ -83,33 +85,36 @@
             // 
             this.txtTaiKhoan.Border.Class = "TextBoxBorder";
             this.txtTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTaiKhoan.Location = new System.Drawing.Point(150, 16);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(150, 28);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(172, 24);
             this.txtTaiKhoan.TabIndex = 0;
             this.txtTaiKhoan.TextChanged += new System.EventHandler(this.txtTaiKhoan_TextChanged);
+            this.txtTaiKhoan.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // labelX2
             // 
             this.labelX2.BackColor = System.Drawing.Color.Transparent;
             this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX2.ForeColor = System.Drawing.Color.White;
-            this.labelX2.Location = new System.Drawing.Point(52, 64);
+            this.labelX2.Location = new System.Drawing.Point(52, 76);
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(75, 23);
             this.labelX2.TabIndex = 0;
             this.labelX2.Text = "Mật khẩu:";
+            this.labelX2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // labelX1
             // 
             this.labelX1.BackColor = System.Drawing.Color.Transparent;
             this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX1.ForeColor = System.Drawing.Color.White;
-            this.labelX1.Location = new System.Drawing.Point(52, 16);
+            this.labelX1.Location = new System.Drawing.Point(52, 28);
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(75, 23);
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "Tài khoản:";
+            this.labelX1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // btnDangNhap
             // 
@@ -125,6 +130,7 @@
             this.btnDangNhap.TabIndex = 1;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
+            this.btnDangNhap.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // txtThoat
             // 
@@ -138,6 +144,7 @@
             this.txtThoat.TabIndex = 2;
             this.txtThoat.Text = "Thoát";
             this.txtThoat.Click += new System.EventHandler(this.txtThoat_Click);
+            this.txtThoat.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // labelX3
             // 
@@ -149,16 +156,18 @@
             this.labelX3.Size = new System.Drawing.Size(122, 48);
             this.labelX3.TabIndex = 0;
             this.labelX3.Text = "L O G I N";
+            this.labelX3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // labStatus
             // 
             this.labStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labStatus.ForeColor = System.Drawing.Color.Red;
-            this.labStatus.Location = new System.Drawing.Point(52, 122);
+            this.labStatus.Location = new System.Drawing.Point(52, 136);
             this.labStatus.Name = "labStatus";
             this.labStatus.Size = new System.Drawing.Size(254, 23);
             this.labStatus.TabIndex = 0;
             this.labStatus.Text = "Tên tài khoản hoặc mật khẩu không đúng!";
+            this.labStatus.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // panel1
             // 
@@ -167,6 +176,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(289, 312);
             this.panel1.TabIndex = 3;
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // panel2
             // 
@@ -174,8 +184,9 @@
             this.panel2.Controls.Add(this.labelX3);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(786, 48);
+            this.panel2.Size = new System.Drawing.Size(708, 48);
             this.panel2.TabIndex = 4;
+            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // panel3
             // 
@@ -192,6 +203,25 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(345, 173);
             this.panel3.TabIndex = 5;
+            this.panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
+            // 
+            // panel6
+            // 
+            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
+            this.panel6.Location = new System.Drawing.Point(8, 28);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(31, 29);
+            this.panel6.TabIndex = 5;
+            this.panel6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
+            // 
+            // panel5
+            // 
+            this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
+            this.panel5.Location = new System.Drawing.Point(8, 74);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(31, 29);
+            this.panel5.TabIndex = 4;
+            this.panel5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // panel4
             // 
@@ -202,22 +232,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(345, 124);
             this.panel4.TabIndex = 6;
-            // 
-            // panel5
-            // 
-            this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
-            this.panel5.Location = new System.Drawing.Point(8, 62);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(31, 29);
-            this.panel5.TabIndex = 4;
-            // 
-            // panel6
-            // 
-            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
-            this.panel6.Location = new System.Drawing.Point(8, 16);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(31, 29);
-            this.panel6.TabIndex = 5;
+            this.panel4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // frmDangNhap
             // 
@@ -235,6 +250,7 @@
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmDangNhap_Load);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmDangNhap_MouseMove);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);

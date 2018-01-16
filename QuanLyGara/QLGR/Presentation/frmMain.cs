@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
+using System.Drawing;
 
 namespace QLGR.Presentation
 {
@@ -273,6 +274,141 @@ namespace QLGR.Presentation
         {
             string path = System.IO.Directory.GetCurrentDirectory() + @"\HDSD.doc";
             System.Diagnostics.Process.Start(path);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonPanel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonBar7_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonBar5_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonBar4_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonBar6_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonBar2_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonBar1_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonPanel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonBar3_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonPanel5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonBar8_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonPanel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbarThayDoi_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabTaiKhoan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribThiHanh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribBaoCao_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribCapNhat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonTabItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabControl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabControlPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bar1_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contextMenuStrip1_Opening(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            panel1.BackColor = Color.FromArgb(140, 247, 247, 247);
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using DevComponents.DotNetBar;
 using System.Windows.Forms;
 using QLGR.BusinessLayer;
+using System.Runtime.InteropServices;
 
 namespace QLGR.Presentation
 {
@@ -19,6 +20,16 @@ namespace QLGR.Presentation
             InitializeComponent();
             tabControl = _tabControl;
         }
+
+        private const int WM_NCLBUTTONDOWN = 0xA1;
+        private const int HTCAPTION = 0x2;
+
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+
+        [DllImport("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 
         private void btnLapPhieu_Click(object sender, EventArgs e)
         {
@@ -86,6 +97,17 @@ namespace QLGR.Presentation
                 txtBienSo.Text = frmTimKiem.bienSo;
                 btnLapPhieu.Enabled = true;
             }
+        }
+
+        private void btnLapPhieu_MouseMove(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
